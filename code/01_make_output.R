@@ -37,7 +37,6 @@ saveRDS(
 set.seed(5)
 random_numbers5 <- rgeom(100, 0.25)
 
-
 saveRDS(
   random_numbers5,
   file = here::here("output", "random_numbers5.rds")
